@@ -1,0 +1,21 @@
+# unbind default prefix
+unbind-key C-b
+
+unbind "\$" # rename-session
+unbind ,    # rename window
+unbind %    # split-window -h
+unbind '"'  # split-window
+unbind \}   # swap-pane -D
+unbind \{   # swap-pane -U
+unbind "'"  # selectr window
+unbind l    # last window
+unbind M-n  # next window with alert
+unbind M-p  # previous window with alert
+unbind o    # focus thru panes
+unbind &    # kill window
+unbind "#"  # list buffer
+unbind =    # choose buffer
+unbind M-Up # resize 5 rows up
+unbind M-Down
+unbind M-Right
+unbind M-Left
